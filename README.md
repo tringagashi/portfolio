@@ -1,70 +1,131 @@
-# Getting Started with Create React App
+# 🚀 Tringa Gashi — Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, clean, and fully responsive developer portfolio built with **React.js**, designed to showcase my skills, experience, and technical projects.  
+This portfolio highlights my journey as a **Software Developer, Python Mentor, and Web Developer**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌟 Features
 
-### `npm start`
+✅ Modern UI/UX (premium dark theme)  
+✅ Responsive design for all devices  
+✅ Smooth animations and hover effects  
+✅ Clean structure with reusable components  
+✅ GitHub & LinkedIn integration  
+✅ Sections for Skills, Experience, Projects, and Contact
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧑‍💻 About Me
 
-### `npm test`
+I am a final-year **Computer Science & Engineering** student, currently working on my diploma thesis.  
+I work as a programming mentor at **Elite School**, where I teach Python, Game Development with Unity, and various IT-related subjects.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I am passionate about:
 
-### `npm run build`
+- Web Development  
+- Python Programming  
+- Educational Technology  
+- Creating learning materials for students  
+- Building meaningful digital experiences
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔧 Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Frontend:**  
+- React.js  
+- HTML5  
+- CSS3 (Premium custom styling)  
+- JavaScript ES6+  
 
-### `npm run eject`
+**Other Tools:**  
+- Git & GitHub  
+- Visual Studio Code  
+- NPM / Node.js  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
+portfolio/
+│── public/
+│── src/
+│ ├── components/
+│ │── About.jsx
+│ │── Skills.jsx
+│ │── Experience.jsx
+│ │── Projects.jsx
+│ │── Contact.jsx
+│ └── App.js
+│── package.json
+│── README.md
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🏆 Experience Highlights
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 👩‍🏫 Python Mentor — Elite School (2024 – Present)
+- Teach Python programming and game development  
+- Prepare structured lessons, mini-projects, and coding exercises  
+- Mentor students aged 8–18  
 
-## Learn More
+### 🐍 Python Intern — Sharp Group (2025)
+- Developed automation scripts  
+- Worked with real-world data processing  
+- Optimized internal workflows  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🔌 Electronics & Arduino — BONEVET (2022–2023)
+- Sensor-based microcontroller systems  
+- Hands-on electronics and robotics  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🚀 Projects
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🌐 Portfolio Website (This Project)
+A complete, responsive, and modern personal portfolio built with React.
 
-### Analyzing the Bundle Size
+### 🧠 Python Training Repository
+A structured collection of lessons, exercises, and mini-projects used for student mentoring.  
+👉 GitHub: https://github.com/tringagashi/pythontraining
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### ⚙️ User Management System (React)
+CRUD application with Axios, responsive UI, and clean component-based architecture.
 
-### Making a Progressive Web App
+*(More projects can be found on my GitHub profile)*  
+👉 https://github.com/tringagashi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📸 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🔗 Live Demo
 
-### `npm run build` fails to minify
+🚀 Coming soon…
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📬 Contact
+
+If you want to connect, collaborate, or discuss opportunities:
+
+📧 Email: **tringaagashi@gmail.com**  
+🔗 GitHub: **https://github.com/tringagashi**  
+🔗 LinkedIn: **https://linkedin.com/in/tringa-gashi-44b31a893**
+
+---
+
+## 📄 License
+
+This project is open-source and available for learning and inspiration.
+
+---
+
+## ❤️ Thank You for Visiting!
+
+Feel free to ⭐ the repo if you like it!
+
+
+## 📁 Project Structure
+
