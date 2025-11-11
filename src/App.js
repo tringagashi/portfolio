@@ -1,20 +1,14 @@
 import React from "react";
 import "./App.css";
 
-
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-
 function App() {
   return (
-    <div className="portfolio">
+    <>
+      
+      <header className="navbar">
+        <h2 className="logo">Tringa Gashi</h2>
 
-      <header className="nav">
-        <h1>Tringa Gashi</h1>
-        <nav>
+        <nav className="nav-links">
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#experience">Experience</a>
@@ -23,46 +17,133 @@ function App() {
         </nav>
       </header>
 
-    
+     
       <section className="hero">
-       
+        <div className="hero-gradient"></div>
 
-        <h2>Hello, I'm Tringa 👋</h2>
-        <p>Software Developer | Python Mentor | Web Developer</p>
+        <h1 className="hero-title">Hello, I'm Tringa 👋</h1>
+
+        <p className="hero-subtitle">
+          Software Developer | Python Mentor | Web Developer
+        </p>
 
         <div className="hero-buttons">
           <a
             href="https://github.com/tringagashi"
+            className="hero-btn"
             target="_blank"
             rel="noopener noreferrer"
-            className="hero-btn"
           >
             GitHub
           </a>
 
           <a
             href="https://linkedin.com/in/tringa-gashi-44b31a893"
+            className="hero-btn"
             target="_blank"
             rel="noopener noreferrer"
-            className="hero-btn"
           >
             LinkedIn
           </a>
         </div>
       </section>
 
+      <section id="about" className="section">
+        <h2 className="section-title">About Me</h2>
+        <p className="section-text">
+          I am a final-year Computer Science & Engineering student, currently
+          working on my diploma thesis. I work as an administrator and
+          programming mentor at Elite School, teaching Python, Game Programming
+          with Unity, and Microsoft Office. I am passionate about modern web 
+          development, technology, and helping students succeed in coding.
+        </p>
+      </section>
+
+     
+      <section id="skills" className="section">
+        <h2 className="section-title">Skills</h2>
+
+        <div className="skills-container">
+          <div className="skill-box">React.js</div>
+          <div className="skill-box">JavaScript</div>
+          <div className="skill-box">Node.js</div>
+          <div className="skill-box">Express.js</div>
+          <div className="skill-box">SQLite / SQL</div>
+          <div className="skill-box">Python</div>
+          <div className="skill-box">Unity C#</div>
+          <div className="skill-box">HTML / CSS</div>
+          <div className="skill-box">Git & GitHub</div>
+          <div className="skill-box">Team Communication</div>
+        </div>
+      </section>
+
+     
+      <section id="experience" className="section">
+        <h2 className="section-title">Experience</h2>
+
+        <div className="exp-item">
+          <h3 className="exp-role">Administrator & Programming Mentor</h3>
+          <p className="exp-company">Elite School | Nov 2024 – Present</p>
+          <p className="exp-desc">
+            Teaching Python (beginner to advanced), game programming with Unity,
+            Microsoft Office, physics, and mathematics. Supporting student learning,
+            engagement, and motivation.
+          </p>
+        </div>
+
+        <div className="exp-item">
+          <h3 className="exp-role">Python Internship</h3>
+          <p className="exp-company">Sharp Group | 2022 – 2023</p>
+          <p className="exp-desc">
+            Developed Python-based mini projects, data handling, and automation scripts.
+          </p>
+        </div>
+
+        <div className="exp-item">
+          <h3 className="exp-role">Electronics Member</h3>
+          <p className="exp-company">BONEVET | 2020 – 2022</p>
+          <p className="exp-desc">
+            Worked on hardware, circuits, and basic electronic components.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" className="section">
+        <h2 className="section-title">Projects</h2>
+
+        <div className="projects-grid">
+          <div className="project-card">
+            <h3>Task Manager</h3>
+            <p>Full-Stack task management app with authentication and SQLite database.</p>
+          </div>
+
+          <div className="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Modern React.js portfolio with gradient UI and interactive sections.</p>
+          </div>
+
+          <div className="project-card">
+            <h3>E-Learning System</h3>
+            <p>Platform with CRUD functionality for courses and student management.</p>
+          </div>
+
+          <div className="project-card">
+            <h3>Our Coffee Shop</h3>
+            <p>Frontend UI/UX design for a café business website.</p>
+          </div>
+        </div>
+      </section>
+
       
-      <About />
-      <Skills />
-      <Experience />
-      <Projects />
-      <Contact />
-
-      <footer>
-        © 2025 Tringa Gashi — All Rights Reserved
-      </footer>
-
-    </div>
+      <section id="contact" className="section">
+        <h2 className="section-title">Contact</h2>
+        <p className="contact-info">
+          📧 Email: <a href="mailto:tringaagashi@gmail.com">tringaagashi@gmail.com</a>
+          <br />
+          📍 Location: Gjakovë, Kosovo
+        </p>
+      </section>
+    </>
   );
 }
 
