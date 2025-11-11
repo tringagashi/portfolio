@@ -38,7 +38,7 @@ function App() {
           </a>
 
           <a
-            href="https://linkedin.com/in/tringa-gashi-44b31a893"
+            href="https://www.linkedin.com/in/tringa-gashi-44b318293/"
             className="hero-btn"
             target="_blank"
             rel="noopener noreferrer"
